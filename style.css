@@ -60,7 +60,7 @@ p {
 .detalhe{
     width: 60px;
     height: 4px;
-    background: #ee2211;
+    background: #ffd700;
     display: inline-block;
     position: absolute;
     top: 30px;
@@ -68,9 +68,10 @@ p {
 
 }
 .botao {
-    background: #ee2211;
+    background: #ffd700;
     color: #ffff;
     padding: 15px 29px;
     border-radius: 4px;
     text-transform: uppercase;
 }
+

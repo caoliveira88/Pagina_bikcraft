@@ -2,7 +2,7 @@
 
 Projeto de Landing Page, com proposito de praticar CSS Grid Layout.
 
- ![pagina_bikcraft](https://user-images.githubusercontent.com/85043558/155432752-a365e227-e408-4783-a713-27547d595234.jpg)
+ ![pagina_bikcraft](img/pagina_bikcraft.jpg)
 
  
  ## Tecnicas e ferramentas utilizadas

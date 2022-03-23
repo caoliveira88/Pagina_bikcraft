@@ -1,3 +1,28 @@
+:root {
+  --cor-primaria: #ffd700;
+  --cor-primaria-escura: #cab01d;
+  --fundo-1: #f7f7f7;
+  --fundo-2: #fff;
+  --texto: #000000;
+  --cor-subtitulo: rgba(0, 0, 0, 0.2);
+  --onda: url("img/onda-clara.svg");
+}
+
+ 
+
+
+@media (prefers-color-scheme: dark) {
+
+  :root {
+    --fundo-1: #111;
+    --fundo-2: #000000;
+    --texto: #ffffff;
+    --cor-subtitulo: rgba(255, 255, 255, 0.2);
+    --onda: url("img/onda-escura.svg");
+  }
+ 
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
@@ -61,16 +86,16 @@ p {
 
 .menu a {
   display: block;
-  background: #ffff;
+  background: var(--fundo-2);
   padding: 1rem 2rem;
   border-radius: 4px;
-  color: #000000;
+  color: var(--texto);
   text-transform: uppercase;
-  border: 2px solid #ffff;
+  border: 2px solid var(--fundo-2);
 }
 
 .menu a:hover {
-  border: 2px solid #ffd700;
+  border: 2px solid var(--cor-primaria)
 }
 
 .conteudo {
@@ -80,7 +105,7 @@ p {
 }
 
 .introducao {
-  background: #ffff;
+  background: var(--fundo-2);
   padding: 40px;
   text-align: right;
   position: relative;
@@ -98,7 +123,7 @@ p {
   content: "";
   width: 60px;
   height: 4px;
-  background: #ffd700;
+  background: var(--cor-primaria);
   display: inline-block;
   position: absolute;
   top: 30px;
@@ -111,30 +136,30 @@ p {
 }
 
 .botao {
-  background: #ffd700;
-  color: #ffff;
+  background: var(--cor-primaria);
+  color:#ffffff;
   padding: 1rem 2rem;
   border-radius: 4px;
   text-transform: uppercase;
 }
 
 .botao:hover {
-  background: #cab01d;
+  background: var(--cor-primaria-escura);
 }
 
 .subtitulo {
   font-size: 4rem;
-  color: rgba(0, 0, 0, 0.2);
+  color: var(--cor-subtitulo);
   text-transform: uppercase;
   text-align: right;
   padding: 2.5rem;
   align-self: center;
-  background-image: url(img/onda.svg);
+  background-image: var(--onda);
   /*word-break: break-all;*/
 }
 
 .vantagens {
-  background: #ffff;
+  background: var(--fundo-2);
   padding: 2.5rem;
 }
 
@@ -147,11 +172,11 @@ p {
 }
 
 .vantagens-item:nth-child(odd) {
-  background: #f7f7f7;
+  background: var(--fundo-1);
 }
 
 .vantagens-item:hover {
-  border-color: #ffd700;
+  border-color: var(--cor-primaria);
 }
 
 .vantagens-item p {
@@ -159,7 +184,7 @@ p {
 }
 
 .rodape {
-  background: #ffff;
+  background: var(--fundo-2);
   width: 100%;
   text-align: center;
   padding: 40px;
@@ -214,3 +239,4 @@ p {
     font-size: 1rem;
   }
 }
+

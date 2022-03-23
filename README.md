@@ -13,4 +13,4 @@ Projeto de Landing Page, com proposito de praticar CSS Grid Layout.
 - ``VS Code IDEA``
 
 ## Deploy
-https://caoliveira88.github.io/Pagina_bikcraft/
+[pagina_bikcraft](https://caoliveira88.github.io/Pagina_bikcraft/)
